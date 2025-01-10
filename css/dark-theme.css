@@ -1,0 +1,103 @@
+/* Navbar Sınıfları */
+.navbar-dark.bg-primary.fixed-top {
+    background-color: #2d2d2d !important;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+/* Container ve Section Sınıfları */
+.container-fluid {
+    background-color: #1a1a1a;
+}
+
+.resume-section {
+    background-color: #1a1a1a;
+}
+
+.resume-section-content {
+    color: #e0e0e0;
+}
+
+
+
+/* Başlık ve Metin Sınıfları */
+.mb-0, .mb-5 {
+    color: #ffffff;
+}
+
+.text-primary {
+    color: #e0e0e0 !important;
+}
+
+/* Mail adresi için daha spesifik seçiciler */
+.resume-section-content .subheading.mb-5 a,
+.subheading.mb-5 a[href^="mailto:"],
+a[href^="mailto:"] {
+    color: #e0e0e0 !important;
+    text-transform: lowercase;
+    text-decoration: none !important;
+    transition: color 0.3s ease;
+}
+
+.resume-section-content .subheading.mb-5 a:hover,
+.subheading.mb-5 a[href^="mailto:"]:hover,
+a[href^="mailto:"]:hover {
+    color: #4a9eff !important;
+    text-decoration: underline !important;
+}
+
+
+.subheading {
+    color: #e0e0e0 !important;
+    text-transform: capitalize;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Flex Sınıfları */
+.d-flex.flex-column.flex-md-row {
+    background-color: transparent;
+    color: #e0e0e0;
+}
+
+.flex-grow-1, .flex-shrink-0 {
+    color: #e0e0e0;
+}
+
+/* İkon ve Liste Sınıfları */
+.list-inline.dev-icons {
+    color: #4a9eff;
+}
+
+.list-inline-item i {
+    color: #4a9eff;
+}
+
+.fa-ul.mb-0 {
+    color: #e0e0e0;
+}
+
+.fa-li i {
+    color: #4a9eff;
+}
+
+/* Sosyal Medya İkonları */
+.social-icons .social-icon {
+    background-color: #2d2d2d;
+    color: #ffffff;
+}
+
+.social-icons .social-icon:hover {
+    background-color: #4a9eff;
+}
+
+/* Profile Resmi için */
+.img-fluid.img-profile {
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+}
